@@ -11318,6 +11318,7 @@ header.masthead {
 header.masthead .masthead-content {
   z-index: 1;
   position: relative;
+  background-color: rgba(33,33,33,.25)
 }
 header.masthead .masthead-content .masthead-heading {
   font-size: clamp(2em, 4rem);
