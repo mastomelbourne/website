@@ -11320,10 +11320,10 @@ header.masthead .masthead-content {
   position: relative;
 }
 header.masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
+  font-size: clamp(2em, 4rem);
 }
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
+  font-size: clamp(.5rem, 2rem);
 }
 header.masthead .bg-circle {
   z-index: 0;
